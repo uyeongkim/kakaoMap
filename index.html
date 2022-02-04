@@ -3,9 +3,18 @@
 <head>
 	<meta charset="utf-8"/>
 	<title>Kakao 지도 시작하기</title>
+	<style>
+		body {
+			margin: 0;
+		}
+		.container {
+			width: 100vw;
+        	height: 100vh;
+		}
+	</style>
 </head>
 <body>
-	<div id="map" style="width:500px;height:400px;"></div>
+	<div id="map"></div>
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cc51b94064bff27736b0529d13cdde45"></script>
 	<script>
 		var container = document.getElementById('map');
